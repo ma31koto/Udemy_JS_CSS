@@ -23,6 +23,7 @@
 /* インライン要素に対して */
 // .parent {
 //   text-align: left;
+//   letter-spacing: -6px;
 // }
 // .child {
 //     display: inline-block;
@@ -48,9 +49,9 @@
 //   transform: translate(-50%, -50%);
 // }
 
-// .parent {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-start;
-//   align-items: flex-end;
-// }
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
