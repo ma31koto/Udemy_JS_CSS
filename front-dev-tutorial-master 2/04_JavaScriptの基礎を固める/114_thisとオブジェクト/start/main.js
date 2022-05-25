@@ -10,23 +10,23 @@ const obj = {
     }
 }
 
-class MyObj {
-    constructor() {
-        this.first_name = 'Mafia';
-        this.last_name = 'Code';
-    }
+// class MyObj {
+//     constructor() {
+//         this.first_name = 'Mafia';
+//         this.last_name = 'Code';
+//     }
 
-    printFullName() {
-        console.log(this.first_name);
-        const fn = function() {
-            console.log(this);
-        };
-        window.setTimeout(fn)   
-    }
-}
+//     printFullName() {
+//         console.log(this.first_name);
+//         const fn = function() {
+//             console.log(this);
+//         };
+//         window.setTimeout(fn)   
+//     }
+// }
 
-const obj2 = new MyObj();
+// const obj2 = new MyObj();
 
 
-obj.printFullName();
-obj2.printFullName();
+// obj.printFullName();
+// obj2.printFullName();
